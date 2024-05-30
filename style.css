@@ -1,5 +1,84 @@
+@font-face {
+  font-family: "HelveticaNowDisplay-Bold";
+  font-style: normal;
+  font-format: woff2;
+  font-weight: 700;
+  src: url("public/fonts/helveticanowdisplay-bold.woff2") ;
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-Thin";
+  font-style: normal;
+  font-format: woff2;
+  font-weight: 265;
+  src: url("public/fonts/helveticanowdisplay-thin.woff2") ;
+}
+@font-face {
+  font-family: "HelveticaNeue-Thin";
+  font-style: normal;
+  font-format: opentype;
+  font-weight: 100;
+  src: url("public/fonts/helveticaneue-thin.otf") ;
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-Regular";
+  font-style: normal;
+  font-format: woff2;
+  font-weight: 400;
+  src: url("public/fonts/helveticanowdisplay-regular.woff2") ;
+}
+@font-face {
+  font-family: "HelveticaNeue-UltraLigExt";
+  font-style: normal;
+  font-format: opentype;
+  font-weight: 300;
+  src: url("public/fonts/helveticaneue-ultraligext.otf") ;
+}
+@font-face {
+  font-family: "HelveticaNeue-Bold";
+  font-style: normal;
+  font-format: truetype;
+  font-weight: 700;
+  src: url("public/fonts/helveticaneuebold.ttf") ;
+}
+@font-face {
+  font-family: "HelveticaNeue-Light";
+  font-style: normal;
+  font-format: opentype;
+  font-weight: 300;
+  src: url("public/fonts/helveticaneue-light.otf") ;
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-Medium";
+  font-style: normal;
+  font-format: woff2;
+  font-weight: 500;
+  src: url("public/fonts/helveticanowdisplay-medium.woff2") ;
+}
+@font-face {
+  font-family: "HelveticaNeue-Medium";
+  font-style: normal;
+  font-format: opentype;
+  font-weight: 500;
+  src: url("public/fonts/helveticaneue-medium.otf") ;
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-Light";
+  font-style: normal;
+  font-format: woff2;
+  font-weight: 300;
+  src: url("public/fonts/helveticanowdisplay-light.woff2") ;
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-Hairline";
+  font-style: normal;
+  font-format: woff2;
+  font-weight: 250;
+  src: url("public/fonts/helveticanowdisplay-hairline.woff2") ;
+}
 :root {
+  --dl-color-gray-500: #595959;
   --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
   --dl-size-size-large: 144px;
   --dl-size-size-small: 48px;
   --dl-size-size-medium: 96px;
@@ -25,7 +104,9 @@
   --dl-color-theme-secondary1: #F3E8E2;
   --dl-color-theme-secondary2: #E0D1CB;
   --dl-space-space-threeunits: 48px;
+  --dl-color-custom-secondary1: #222222;
   --dl-color-exxo-exxo-heading: #303336ff;
+  --dl-color-primary-minority2: #9ec8b9ff;
   --dl-color-theme-neutral-dark: #191818;
   --dl-radius-radius-cardradius: 8px;
   --dl-color-theme-neutral-light: #FBFAF9;
@@ -34,7 +115,9 @@
   --dl-color-custom-neutral-light: #FFFFFF;
   --dl-radius-radius-buttonradius: 24px;
   --dl-color-primary-darkmajority1: #092635ff;
+  --dl-color-primary-darkmajority2: #1b4242ff;
   --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-primary-maingreencolor: #5c8374ff;
 }
 .button {
   color: var(--dl-color-theme-neutral-dark);
@@ -73,6 +156,7 @@
 }
 .list-item {
   display: list-item;
+  margin-bottom: 8px;
 }
 .teleport-show {
   display: flex !important;
@@ -344,10 +428,38 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.room {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #ece4e4;
+}
+.roomdetail_listitem {
+  font-size: 13px;
+}
 .heading6 {
   font-size: 16px;
   font-family: "Gothic A1";
   font-weight: 400;
+  text-transform: none;
+  text-decoration: none;
+}
+.propertyDetailsProps {
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 700;
+  line-height: 2rem;
+  text-transform: none;
+  text-decoration: none;
+}
+.h3 {
+  font-size: 1.4rem;
+  font-family: "HelveticaNeue-Medium";
+  font-weight: 700;
   text-transform: none;
   text-decoration: none;
 }
@@ -357,9 +469,22 @@
   font-weight: 600;
   line-height: 150%;
 }
+.heading4 {
+  font-size: 20px;
+  font-family: "Archivo";
+  font-weight: 400;
+  line-height: 150%;
+}
+.roomdetaik_otion {
+  font-size: 12px;
+  font-family: "HelveticaNeue-Light";
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
 .Content {
   font-size: 16px;
-  font-family: "Inter";
+  font-family: "HelveticaNeue-Light";
   font-weight: 400;
   line-height: 1.15;
   text-transform: none;

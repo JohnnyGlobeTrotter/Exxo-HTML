@@ -1,0 +1,14 @@
+.component6-container {
+  flex: 0 0 auto;
+  width: 95px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+}
+.component6-image {
+  width: 95px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}

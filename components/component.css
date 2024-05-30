@@ -1,0 +1,18 @@
+.app-component-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.app-component-checkbox {
+  margin-right: var(--dl-space-space-halfunit);
+}
+.app-component-text {
+  color: var(--dl-color-primary-minority2);
+  padding-left: 0px;
+  padding-right: var(--dl-space-space-unit);
+}
+@media(max-width: 479px) {
+  .app-component-text {
+    width: 162px;
+  }
+}

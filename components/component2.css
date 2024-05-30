@@ -1,0 +1,37 @@
+.component2-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.component2-container1 {
+  flex: 0 0 auto;
+  width: 20%;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: center;
+}
+.component2-text {
+  fill: rgb(55, 64, 68);
+  color: rgb(55, 64, 68);
+}
+.component2-container2 {
+  flex: 0 0 auto;
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.component2-textinput {
+  width: 80%;
+  border-width: 0px;
+}

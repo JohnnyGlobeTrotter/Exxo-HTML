@@ -59,6 +59,7 @@
 .component11-text {
   fill: var(--dl-color-exxo-exxo-heading);
   color: var(--dl-color-exxo-exxo-heading);
+  font-family: "HelveticaNeue-Medium";
   font-weight: 600;
 }
 .component11-text1 {
@@ -97,4 +98,76 @@
 .component11-root-class-name3 {
   flex: initial;
   width: 100%;
+}
+.component11-root-class-name4 {
+  flex: initial;
+  width: 100%;
+}
+.component11-root-class-name5 {
+  flex: initial;
+  width: 100%;
+}
+.component11-root-class-name6 {
+  flex: initial;
+  width: 100%;
+}
+.component11-root-class-name7 {
+  flex: initial;
+  width: 100%;
+}
+.component11-root-class-name8 {
+  flex: initial;
+  width: 100%;
+}
+.component11-root-class-name9 {
+  flex: initial;
+  width: 100%;
+}
+.component11-root-class-name10 {
+  flex: initial;
+  width: 100%;
+}
+.component11-root-class-name11 {
+  flex: initial;
+  width: 100%;
+}
+.component11-root-class-name12 {
+  flex: initial;
+  width: 100%;
+}
+.component11-root-class-name13 {
+  flex: initial;
+  width: 100%;
+}
+.component11-root-class-name14 {
+  flex: initial;
+  width: 100%;
+}
+.component11-root-class-name15 {
+  flex: initial;
+  width: 100%;
+}
+.component11-root-class-name16 {
+  flex: initial;
+  width: 100%;
+}
+.component11-root-class-name17 {
+  flex: initial;
+  width: 100%;
+}
+.component11-root-class-name18 {
+  flex: initial;
+  width: 100%;
+}
+.component11-root-class-name19 {
+  flex: initial;
+  width: 100%;
+}
+@media(max-width: 479px) {
+  .component11-root-class-name16 {
+    width: 100%;
+  }
+  .component11-root-class-name17 {
+    width: 100%;
+  }
 }

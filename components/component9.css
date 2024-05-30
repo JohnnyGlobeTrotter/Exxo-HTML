@@ -50,13 +50,14 @@
 .component9-text {
   font-size: 25px;
   font-style: normal;
-  font-family: "Inter";
+  font-family: "HelveticaNeue-Medium";
   font-weight: 600;
   line-height: 150%;
 }
 .component9-text03 {
   font-size: 20px;
   margin-top: var(--dl-space-space-halfunit);
+  font-family: "HelveticaNeue-Light";
 }
 .component9-container4 {
   flex: 0 0 auto;
@@ -79,7 +80,7 @@
 }
 .component9-text05 {
   margin-top: var(--dl-space-space-twounits);
-  font-family: "Gothic A1";
+  font-family: "HelveticaNeue-Light";
   margin-bottom: var(--dl-space-space-twounits);
 }
 .component9-text08 {
@@ -88,6 +89,7 @@
 .component9-text09 {
   font-size: 18px;
   font-style: normal;
+  font-family: "HelveticaNeue-Medium";
   font-weight: 600;
 }
 .component9-container5 {
@@ -114,6 +116,7 @@
   height: 40px;
   border-width: 0px;
 }
+
 
 @media(max-width: 479px) {
   .component9-container {

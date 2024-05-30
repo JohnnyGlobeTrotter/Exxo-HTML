@@ -1,0 +1,360 @@
+.component1-container {
+  flex: 0 0 auto;
+  width: 30%;
+  height: 670px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  max-width: 370px;
+  margin-top: 0px;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: 0px;
+  justify-content: flex-start;
+}
+.component1-image {
+  width: 100%;
+  height: 288px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.component1-container01 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.component1-text {
+  color: var(--dl-color-primary-maingreencolor);
+  font-size: 20px;
+  text-align: left;
+  font-family: "Archivo";
+  font-weight: 600;
+  line-height: 150%;
+}
+.component1-text01 {
+  color: var(--dl-color-custom-secondary1);
+  font-size: 16px;
+  font-family: "Archivo";
+  font-weight: 600;
+  line-height: 150%;
+}
+.component1-container02 {
+  width: 100%;
+  height: 24px;
+  display: flex;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: center;
+}
+.component1-icon {
+  color: #ff0000;
+  width: 24px;
+  height: 24px;
+}
+.component1-text02 {
+  height: 18px;
+  align-self: center;
+  font-family: "Archivo";
+}
+.component1-text03 {
+  font-size: 16px;
+  margin-top: var(--dl-space-space-unit);
+  font-family: "Archivo";
+}
+.component1-text04 {
+  font-family: "Roboto";
+}
+.component1-text07 {
+  font-family: "Roboto";
+}
+.component1-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.component1-container04 {
+  flex: 0 0 auto;
+  width: 31px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component1-icon02 {
+  color: 100 (Primary);
+  width: 24px;
+  height: 24px;
+}
+.component1-container05 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.component1-text09 {
+  color: var(--dl-color-primary-maingreencolor);
+  height: 24px;
+  font-size: 16px;
+  font-family: "Archivo";
+  font-weight: 600;
+  line-height: 150%;
+}
+.component1-container06 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.component1-container07 {
+  flex: 0 0 auto;
+  width: 31px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component1-icon05 {
+  color: 100 (Primary);
+  width: 24px;
+  height: 24px;
+}
+.component1-container08 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.component1-text10 {
+  color: var(--dl-color-primary-maingreencolor);
+  font-size: 16px;
+  font-family: "Archivo";
+  font-weight: 600;
+  line-height: 150%;
+}
+.component1-container09 {
+  flex: 1;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  justify-content: center;
+}
+.component1-container10 {
+  flex: 0 0 auto;
+  width: 70%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.component1-button {
+  color: var(--dl-color-custom-neutral-light);
+  height: 39px;
+  font-size: 14px;
+  font-family: "Archivo";
+  border-width: 0px;
+  background-color: var(--dl-color-primary-darkmajority1);
+}
+.component1-container11 {
+  flex: 0 0 auto;
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.component1-icon08 {
+  width: 28px;
+  height: 28px;
+}
+.component1-container12 {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  border-color: var(--dl-color-gray-500);
+  border-width: 1px;
+  justify-content: center;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.component1-container13 {
+  flex: 0 0 auto;
+  width: 30px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.component1-image1 {
+  width: 30px;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-halfunit);
+}
+.component1-container14 {
+  flex: 0 0 auto;
+  width: 30px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component1-text11 {
+  height: 100%;
+  font-size: 14px;
+  font-weight: 700;
+}
+.component1-container15 {
+  flex: 0 0 auto;
+  width: 30px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.component1-image2 {
+  width: 30px;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-halfunit);
+}
+.component1-container16 {
+  flex: 0 0 auto;
+  width: 30px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.component1-text12 {
+  width: 30px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.component1-container17 {
+  flex: 0 0 auto;
+  width: 30px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.component1-image3 {
+  width: 30px;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-halfunit);
+}
+.component1-text13 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.component1-root-class-name {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name1 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name2 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name3 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name4 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name5 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name6 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name7 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name8 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name9 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name10 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name11 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name12 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name13 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name14 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name15 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name16 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.component1-root-class-name17 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+@media(max-width: 479px) {
+  .component1-container {
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .component1-image1 {
+    width: 30px;
+  }
+  .component1-image2 {
+    width: 25px;
+  }
+  .component1-image3 {
+    width: 30px;
+  }
+}

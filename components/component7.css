@@ -1,0 +1,41 @@
+.component7-container {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+}
+.component7-image {
+  width: 20px;
+  object-fit: cover;
+}
+.component7-text {
+  font-size: 12px;
+  font-family: "HelveticaNeue-Light";
+  font-weight: 500;
+  padding-left: 4px;
+  text-transform: none;
+  text-decoration: none;
+}
+.component7-root-class-name {
+  width: auto;
+}
+.component7-root-class-name1 {
+  width: auto;
+}
+.component7-root-class-name2 {
+  width: auto;
+}
+.component7-root-class-name3 {
+  width: auto;
+}
+.component7-root-class-name4 {
+  width: auto;
+}
+.component7-root-class-name5 {
+  width: auto;
+}
+.component7-root-class-name6 {
+  width: auto;
+}

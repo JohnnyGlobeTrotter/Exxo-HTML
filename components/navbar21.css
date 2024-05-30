@@ -89,6 +89,21 @@
 .navbar21-root-class-name {
   max-width: 1200px;
 }
+.navbar21-root-class-name1 {
+  max-width: 1200px;
+}
+.navbar21-root-class-name2 {
+  max-width: 1200px;
+}
+.navbar21-root-class-name3 {
+  max-width: 1200px;
+}
+.navbar21-root-class-name4 {
+  max-width: 1200px;
+}
+.navbar21-root-class-name5 {
+  max-width: 1200px;
+}
 @media(max-width: 767px) {
   .navbar21-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);

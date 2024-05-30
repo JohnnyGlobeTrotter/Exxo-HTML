@@ -1,0 +1,99 @@
+.component4-container {
+  gap: 10px;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: flex-start;
+  margin-left: 0px;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  margin-right: 0px;
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.component4-container1 {
+  flex: 0 0 auto;
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.component4-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.component4-container2 {
+  flex: 0 0 auto;
+  width: 38%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component4-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.component4-text {
+  fill: var(--dl-color-primary-darkmajority1);
+  color: #565858;
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 500;
+}
+.component4-text03 {
+  font-family: "Inter";
+}
+.component4-container4 {
+  flex: 0 0 auto;
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component4-text08 {
+  width: 100%;
+  text-align: left;
+}
+.component4-text09 {
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
+  font-weight: 600;
+}
+.component4-text10 {
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: right;
+}
+.component4-button {
+  fill: var(--dl-color-theme-accent1);
+  color: var(--dl-color-theme-accent1);
+  width: 100%;
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  background-color: var(--dl-color-exxo-exxo-blue);
+}
+.component4-button1 {
+  fill: var(--dl-color-exxo-exxo-blue);
+  color: var(--dl-color-exxo-exxo-blue);
+  width: 100%;
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-exxo-exxo-blue);
+  border-width: 1px;
+  background-color: transparent;
+}
